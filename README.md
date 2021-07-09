@@ -75,13 +75,11 @@ export default App;
 
 Run the attached code sample using npm start, you should be able to see the web app running in your browser on localhost:3000
 
-Click several times of the Throw Error button and go on to check your Sentry Dashboard
+Click on the Throw Error button and go to your Sentry Dashboard
 
-Once you enter your dashboard click on the Issues tab of the left menu bar
+Once you enter your dashboard click on the Issues tab of the left side menu bar.
 
-![Sandbox](https://uc54662473f68f8785c26e6deea5.dl.dropboxusercontent.com/cd/0/inline/BR6ouJGfpDbmxEOnQHMotg-nqPcelRBi-z6kySObIFOspk4Fr_h2IU02HEeCRLM4bLkttO3-CmihFfzSwxPJLVPjT7p-5AuUTCcrcrInkKbVZKNQ9du9CWwOQ3cKZhEAEwkhPRA1pC-iNLTg5707eBIz/file#)
-
-Once you get to the issues screen, make sure to select the project that you want to monitor from the dropdown at the top left of the screen
-
+Once you get to the issues screen, make sure to select the project that you want to monitor from the dropdown at the top left of the screen.
+See Screenshot:
 ![Errors screen](https://www.dropbox.com/s/9ofh40wl0tzqght/errors_s3.png?dl=0&raw=1)
 
