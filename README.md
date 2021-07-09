@@ -12,7 +12,7 @@ For the full documentation [click here](https://docs.sentry.io/platforms/javascr
 npm install --save @sentry/react @sentry/tracing
 # Using yarn
 yarn add @sentry/react @sentry/tracing
-
+## installing the @sentry/tracing module will enable performance monitoring
 
 export const _frontmatter = {}
 ```
@@ -24,12 +24,12 @@ export const _frontmatter = {}
 import React from "react";
 import ReactDOM from "react-dom";
 import * as Sentry from "@sentry/react";
-import { Integrations } from "@sentry/tracing";
+import { Integrations } from "@sentry/tracing"; // importing this module will enable performance monitoring
 import App from "./App";
 
 Sentry.init({
   dsn: "https://d60f38c2b0f149b7b60bdad6b7a998f4@o911779.ingest.sentry.io/5855066",
-  integrations: [new Integrations.BrowserTracing()],
+  integrations: [new Integrations.BrowserTracing()], // This integration is required for performance tracking
 
   // We recommend adjusting this value in production, or using tracesSampler
   // for finer control
